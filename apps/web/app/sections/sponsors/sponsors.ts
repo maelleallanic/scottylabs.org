@@ -19,6 +19,7 @@ import decagon from "../../assets/sponsors-page/sponsors/decagon.svg?inline";
 import ripple from "../../assets/sponsors-page/sponsors/ripple.svg?inline";
 import conway from "../../assets/sponsors-page/sponsors/conway.svg?inline";
 import capitalOne from "../../assets/sponsors-page/sponsors/capitalone.svg?inline";
+import transfyr from "../../assets/sponsors-page/sponsors/transfyr.png";
 export type SponsorTypes = "lowest" | "partner" | "premier";
 
 export const sponsors = [
@@ -126,5 +127,10 @@ export const sponsors = [
     imageUrl: capitalOne,
     type: "premier",
     websiteUrl: "https://www.capitalone.com/",
+  },
+  {
+    imageUrl: transfyr,
+    type: "partner",
+    websiteUrl: "https://transfyr.ai/",
   },
 ] satisfies { imageUrl: string; type: SponsorTypes; websiteUrl: string }[];
