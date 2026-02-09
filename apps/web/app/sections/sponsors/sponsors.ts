@@ -17,9 +17,11 @@ import snl from "../../assets/sponsors-page/sponsors/snl.svg?inline";
 import visa from "../../assets/sponsors-page/sponsors/visa.svg?inline";
 import decagon from "../../assets/sponsors-page/sponsors/decagon.svg?inline";
 import ripple from "../../assets/sponsors-page/sponsors/ripple.svg?inline";
-import conway from "../../assets/sponsors-page/sponsors/conway.svg?inline";
+import conway from "../../assets/sponsors-page/sponsors/conway.png";
 import capitalOne from "../../assets/sponsors-page/sponsors/capitalone.svg?inline";
 import transfyr from "../../assets/sponsors-page/sponsors/transfyr.png";
+import bny from "../../assets/sponsors-page/sponsors/bny.png";
+import phoebe from "../../assets/sponsors-page/sponsors/phoebe.svg?inline";
 export type SponsorTypes = "lowest" | "partner" | "premier";
 
 export const sponsors = [
@@ -132,5 +134,15 @@ export const sponsors = [
     imageUrl: transfyr,
     type: "partner",
     websiteUrl: "https://transfyr.ai/",
+  },
+  {
+    imageUrl: bny,
+    type: "premier",
+    websiteUrl: "https://www.bny.com/",
+  },
+  {
+    imageUrl: phoebe,
+    type: "partner",
+    websiteUrl: "https://phoebe.work/",
   },
 ] satisfies { imageUrl: string; type: SponsorTypes; websiteUrl: string }[];
