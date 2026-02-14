@@ -403,12 +403,14 @@ export default function Team() {
                         height: "fit-content",
                       }}
                     >
-                      {team.map((member, i) => (
-                        <TeamMemberCard
-                          key={`${member.name}-${member.role}`}
-                          person={member}
-                        />
-                      ))}
+                      {team
+                        .sort((a, b) => a.name.localeCompare(b.name))
+                        .map((member, i) => (
+                          <TeamMemberCard
+                            key={`${member.name}-${member.role}`}
+                            person={member}
+                          />
+                        ))}
                     </div>
                   );
                 })}

@@ -252,9 +252,9 @@ export const YEARS: YearType[] = [
           url: "https://www.linkedin.com/in/ryan-li-ab139919b/",
         },
         {
-          name: "Xavier Lien",
+          name: "Li Ying",
           role: "CMU Courses Tech Lead",
-          image: XavierLienImg,
+          image: ScottyDogImg,
           url: "https://www.linkedin.com/in/xavilien/",
         },
         {
@@ -271,7 +271,7 @@ export const YEARS: YearType[] = [
         },
         {
           name: "Ellyse Lai",
-          role: "CMU Floorplans Tech Lead",
+          role: "SLAI (ScottyLabs AI) Tech Lead",
           image: EllyseLaiImg,
           url: "https://www.linkedin.com/in/ellyse-lai/",
         },
