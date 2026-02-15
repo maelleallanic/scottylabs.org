@@ -29,7 +29,6 @@ import AmyChoiImg from "../../assets/team-page/AmyChoi.jpg";
 import KylaAndersonImg from "../../assets/team-page/KylaAnderson.jpg";
 import EmilyLauImg from "../../assets/team-page/EmilyLau.png";
 import JeanChenImg from "../../assets/team-page/JeanChen.jpg";
-import JustinWuImg from "../../assets/team-page/JustinWu.jpg";
 import MichaelZhouImg from "../../assets/team-page/MichaelZhou.jpg";
 import CooperBrunoImg from "../../assets/team-page/CooperBruno.jpg";
 import TevinWangImg from "../../assets/team-page/TevinWang.jpg";
@@ -356,14 +355,6 @@ export const YEARS: YearType[] = [
           role: "Head of Branding",
           image: JeanChenImg,
           url: "https://www.linkedin.com/in/jeanxcrj/",
-        },
-      ],
-      [
-        {
-          name: "Justin Wu",
-          role: "Head of Sponsorship",
-          image: JustinWuImg,
-          url: "https://www.linkedin.com/in/justin-wu-b9802621a/",
         },
       ],
     ],
