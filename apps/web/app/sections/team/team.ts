@@ -135,6 +135,7 @@ import RyhanHassanImg from "../../assets/team-page/RyhanHassan.jpg";
 import VinayVemuriImg from "../../assets/team-page/VinayVemuri.jpg";
 import KellieMedlinImg from "../../assets/team-page/KellieMedlin.jpg";
 import VincentLoImg from "../../assets/team-page/VincentLo.png";
+import ciciImg from "../../assets/team-page/cici.png";
 // Type definitions
 export type Person = {
   name: string;
@@ -285,6 +286,12 @@ export const YEARS: YearType[] = [
           role: "Lost & Found Tech Lead",
           image: AnnaGuImg,
           url: "https://www.linkedin.com/in/anna-gu-b7591a299/",
+        },
+        {
+          name: "Qianxue (Cici) Ge",
+          image: ciciImg,
+          role: "CMU Cal Tech Lead",
+          url: "https://www.linkedin.com/in/cici-ge/",
         },
       ],
       [
