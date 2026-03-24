@@ -14,7 +14,6 @@ import MaxWenImg from "../../assets/team-page/MaxWen.jpg";
 import RyanLiImg from "../../assets/team-page/RyanLi.jpg";
 import XavierLienImg from "../../assets/team-page/XavierLien.jpg";
 import LaasyaAkiImg from "../../assets/team-page/LaasyaAki.jpg";
-import EricXuImg from "../../assets/team-page/EricXu.png";
 import EllyseLaiImg from "../../assets/team-page/EllyseLai.jpg";
 import LukeHannImg from "../../assets/team-page/LukeHann.jpg";
 import AnnaGuImg from "../../assets/team-page/AnnaGu.jpg";
@@ -136,7 +135,7 @@ import VinayVemuriImg from "../../assets/team-page/VinayVemuri.jpg";
 import KellieMedlinImg from "../../assets/team-page/KellieMedlin.jpg";
 import VincentLoImg from "../../assets/team-page/VincentLo.png";
 import ciciImg from "../../assets/team-page/cici.png";
-import LiYingImg from "../../assets/team-page/LiYing.jpg";
+
 // Type definitions
 export type Person = {
   name: string;
@@ -255,7 +254,7 @@ export const YEARS: YearType[] = [
         {
           name: "Li Ying",
           role: "CMU Courses Tech Lead",
-          image: LiYingImg,
+          image: ScottyDogImg,
           url: "https://www.linkedin.com/in/li-ying-9a5667357/",
         },
         {
@@ -267,7 +266,7 @@ export const YEARS: YearType[] = [
         {
           name: "Eric Xu",
           role: "CMU Eats Tech Co-Lead, FLEx (Frontend Landing Experience) Tech Lead",
-          image: EricXuImg,
+          image: ScottyDogImg,
           url: "https://www.linkedin.com/in/eric-xu-032890214/",
         },
         {
