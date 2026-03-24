@@ -1615,10 +1615,10 @@ export const YEARS: YearType[] = [
       },
       null,
       {
-        name: "Jeff Cooper",
+        name: "Tom Shen",
         role: "Director of Operations",
-        image: JeffCooperImg,
-        url: "https://www.linkedin.com/in/thejeffcooper/",
+        image: TomShenImg,
+        url: "https://www.linkedin.com/in/tomzshen/",
       },
       null,
       null, // Labrador missing
@@ -1701,18 +1701,28 @@ export const YEARS: YearType[] = [
     directors: [
       {
         name: "Amy Quispe",
-        role: "Co-Founder, OG Director",
+        role: "Founder, OG Director",
         image: AmyQuispeImg,
         url: "https://www.linkedin.com/in/amyquispe/",
       },
-      null,
+      {
+        name: "Quintin Carlon",
+        role: "OG Director of TartanHacks",
+        image: QuintinCarlonImg,
+        url: "https://www.linkedin.com/in/qcarlson/",
+      },
       {
         name: "Jeff Cooper",
-        role: "Director of Operations",
+        role: "OG Director of Operations",
         image: JeffCooperImg,
         url: "https://www.linkedin.com/in/thejeffcooper/",
       },
-      null,
+      {
+        name: "Vinay Vemuri",
+        role: "OG Director of Tech",
+        image: VinayVemuriImg,
+        url: "https://www.linkedin.com/in/vinay-vyas-vemuri-1845b140/",
+      },
       null, // Labrador missing
       null,
       null,
@@ -1720,12 +1730,6 @@ export const YEARS: YearType[] = [
     teams: [
       [],
       [
-        {
-          name: "Quintin Carlon",
-          role: "OG TartanHacks Team",
-          image: QuintinCarlonImg,
-          url: "https://www.linkedin.com/in/qcarlson/",
-        },
         {
           name: "Ryhan Hassan",
           role: "OG TartanHacks Team",
@@ -1742,14 +1746,8 @@ export const YEARS: YearType[] = [
       [],
       [
         {
-          name: "Vinay Vemuri",
-          role: "Co-Founder, OG CTO",
-          image: VinayVemuriImg,
-          url: "https://www.linkedin.com/in/vinay-vyas-vemuri-1845b140/",
-        },
-        {
           name: "Kellie Medlin",
-          role: "CTO",
+          role: "Tech",
           image: KellieMedlinImg,
           url: "https://www.linkedin.com/in/kellie-medlin-aa39b543/",
         },
