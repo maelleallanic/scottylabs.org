@@ -134,7 +134,9 @@ import RyhanHassanImg from "../../assets/team-page/RyhanHassan.jpg";
 import VinayVemuriImg from "../../assets/team-page/VinayVemuri.jpg";
 import KellieMedlinImg from "../../assets/team-page/KellieMedlin.jpg";
 import VincentLoImg from "../../assets/team-page/VincentLo.png";
-import ciciImg from "../../assets/team-page/cici.png";
+import CiciGeImg from "../../assets/team-page/CiciGe.png";
+import MeeraRajendranImg from "../../assets/team-page/MeeraRajendran.jpg";
+import NandanNairImg from "../../assets/team-page/NandanNair.jpg";
 
 // Type definitions
 export type Person = {
@@ -150,6 +152,68 @@ export type YearType = {
 };
 
 export const YEARS: YearType[] = [
+  {
+    label: "2026-27",
+    directors: [
+      {
+        name: "Thomas Kanz",
+        role: "Director of ScottyLabs",
+        image: ThomasKanzImg,
+        url: "https://www.linkedin.com/in/thomas-kanz/",
+      },
+      {
+        name: "Evan Foster",
+        role: "Director of Events",
+        image: EvanFosterImg,
+        url: "https://www.linkedin.com/in/ebfoster/",
+      },
+      {
+        name: "Yuchen Zhou",
+        role: "Director of Outreach",
+        image: YuchenZhouImg,
+        url: "https://www.linkedin.com/in/yuchen-zhou-58289a247/",
+      },
+      {
+        name: "Anish Pallati",
+        role: "Director of Tech",
+        image: AnishPallatiImg,
+        url: "https://www.linkedin.com/in/anish-pallati/",
+      },
+      {
+        name: "Hana Benko",
+        role: "Director of Labrador",
+        image: HanaBenkoImg,
+        url: "https://www.linkedin.com/in/hana-benko/",
+      },
+      {
+        name: "Jean Chen",
+        role: "Director of Design",
+        image: JeanChenImg,
+        url: "https://www.linkedin.com/in/jeanxcrj/",
+      },
+      {
+        name: "Meera Rajendran",
+        role: "Director of Finance",
+        image: MeeraRajendranImg,
+        url: "https://www.linkedin.com/in/meera-r-945886205/",
+      },
+    ],
+    teams: [
+      [],
+      [],
+      [],
+      [],
+      [],
+      [
+        {
+          name: "Nandan Nair",
+          role: "Head of Sponsorship",
+          image: NandanNairImg,
+          url: "https://www.linkedin.com/in/nandan-nair-3b92402a6/",
+        },
+      ],
+    ],
+  },
   {
     label: "2025-26",
     directors: [
@@ -214,16 +278,22 @@ export const YEARS: YearType[] = [
       ],
       [
         {
-          name: "Vedanth Ramanathan",
-          role: "Head of Internal Outreach",
-          image: VedanthRamanathanImg,
-          url: "https://www.linkedin.com/in/vedanthramanathan/",
-        },
-        {
           name: "Yuchen Zhou",
           role: "Head of External Outreach",
           image: YuchenZhouImg,
           url: "https://www.linkedin.com/in/yuchen-zhou-58289a247/",
+        },
+        {
+          name: "Maelle Allanic",
+          role: "Social Chair",
+          image: MaelleAllanicImg,
+          url: "https://www.linkedin.com/in/maelle-allanic/",
+        },
+        {
+          name: "Vedanth Ramanathan",
+          role: "Head of Internal Outreach",
+          image: VedanthRamanathanImg,
+          url: "https://www.linkedin.com/in/vedanthramanathan/",
         },
       ],
       [
@@ -289,7 +359,7 @@ export const YEARS: YearType[] = [
         },
         {
           name: "Qianxue (Cici) Ge",
-          image: ciciImg,
+          image: CiciGeImg,
           role: "CMU Cal Tech Lead",
           url: "https://www.linkedin.com/in/cici-ge/",
         },
