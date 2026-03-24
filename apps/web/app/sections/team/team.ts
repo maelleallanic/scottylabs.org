@@ -424,7 +424,7 @@ export const YEARS: YearType[] = [
         },
         {
           name: "Ellyse Lai",
-          role: "SLAI (ScottyLabs AI) Tech Lead",
+          role: "ScottyLabs AI (SLAI) Tech Lead",
           image: EllyseLaiImg,
           url: "https://www.linkedin.com/in/ellyse-lai/",
         },
