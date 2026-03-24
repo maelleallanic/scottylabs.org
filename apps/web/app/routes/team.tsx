@@ -1,4 +1,6 @@
 import { YEARS, type Person, type YearType } from "../sections/team/team";
+import OGTartanHacksAmyQuispe from "../assets/team-page/OGTartanHacksAmyQuispe.jpg";
+import OGTartanHacksTeam from "../assets/team-page/OGTartanHacksTeam.jpg";
 
 /** Wraps children in an anchor only if href exists (so the whole card becomes clickable). */
 const ClickableWrapper: React.FC<{
@@ -494,7 +496,7 @@ export default function Team() {
             </a>
           </div>
           <div style={{ marginBottom: "12px" }}>
-            <span style={{ fontWeight: 600 }}>2012</span>{" "}
+            <span style={{ fontWeight: 600 }}>2012-13</span>{" "}
             <a
               href="https://www.facebook.com/ScottyLabs/posts/340694309339069/"
               target="_blank"
@@ -503,6 +505,51 @@ export default function Team() {
             >
               https://www.facebook.com/ScottyLabs/posts/340694309339069/
             </a>
+          </div>
+          <div style={{ marginBottom: "12px" }}>
+            <span style={{ fontWeight: 600 }}>2011-12</span>{" "}
+            <div style={{ display: "flex", gap: "16px", marginTop: "12px" }}>
+              <div style={{ textAlign: "center" }}>
+                <img
+                  src={OGTartanHacksAmyQuispe}
+                  style={{
+                    height: "400px",
+                    objectFit: "contain",
+                    display: "block",
+                  }}
+                />
+                <div
+                  style={{
+                    marginTop: "8px",
+                    fontSize: "12px",
+                    color: "#6b7280",
+                  }}
+                >
+                  Amy Quispe at First TartanHacks
+                </div>
+              </div>
+
+              <div style={{ textAlign: "center" }}>
+                <img
+                  src={OGTartanHacksTeam}
+                  style={{
+                    height: "400px",
+                    objectFit: "contain",
+                    display: "block",
+                  }}
+                />
+                <div
+                  style={{
+                    marginTop: "8px",
+                    fontSize: "12px",
+                    color: "#6b7280",
+                  }}
+                >
+                  Vinay Vemuri, Quintin Carlon, Julia Teitelbaum, Ryhan Hassan &
+                  Jeff Cooper
+                </div>
+              </div>
+            </div>
           </div>
         </div>
       </div>
