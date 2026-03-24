@@ -1,7 +1,6 @@
 import { YEARS, type Person, type YearType } from "../sections/team/team";
 import OGTartanHacksAmyQuispe from "../assets/team-page/OGTartanHacksAmyQuispe.jpg";
 import OGTartanHacksTeam from "../assets/team-page/OGTartanHacksTeam.jpg";
-import ShalomYibletImg from "../../assets/team-page/ShalomYiblet.jpg";
 
 /** Wraps children in an anchor only if href exists (so the whole card becomes clickable). */
 const ClickableWrapper: React.FC<{
