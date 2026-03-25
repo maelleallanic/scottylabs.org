@@ -275,7 +275,7 @@ export const YEARS: YearType[] = [
           name: "Leon Liu",
           role: "Lost & Found Tech Lead",
           image: LeonLiuImg,
-          url: "https://www.linkedin.com/in/jialiangleonliu/",
+          url: "https://www.linkedin.com/in/leon-liu-6950632a3/",
         },
       ],
       [
