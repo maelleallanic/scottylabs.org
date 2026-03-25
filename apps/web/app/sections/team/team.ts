@@ -14,7 +14,6 @@ import MaxWenImg from "../../assets/team-page/MaxWen.jpg";
 import RyanLiImg from "../../assets/team-page/RyanLi.jpg";
 import XavierLienImg from "../../assets/team-page/XavierLien.jpg";
 import LaasyaAkiImg from "../../assets/team-page/LaasyaAki.jpg";
-import EricXuImg from "../../assets/team-page/EricXu.png";
 import EllyseLaiImg from "../../assets/team-page/EllyseLai.jpg";
 import LukeHannImg from "../../assets/team-page/LukeHann.jpg";
 import AnnaGuImg from "../../assets/team-page/AnnaGu.jpg";
@@ -135,8 +134,14 @@ import RyhanHassanImg from "../../assets/team-page/RyhanHassan.jpg";
 import VinayVemuriImg from "../../assets/team-page/VinayVemuri.jpg";
 import KellieMedlinImg from "../../assets/team-page/KellieMedlin.jpg";
 import VincentLoImg from "../../assets/team-page/VincentLo.png";
-import ciciImg from "../../assets/team-page/cici.png";
-import LiYingImg from "../../assets/team-page/LiYing.jpg";
+import CiciGeImg from "../../assets/team-page/CiciGe.png";
+import MeeraRajendranImg from "../../assets/team-page/MeeraRajendran.jpg";
+import NandanNairImg from "../../assets/team-page/NandanNair.jpg";
+import KrishSaxenaImg from "../../assets/team-page/KrishSaxena.jpg";
+import LeonLiuImg from "../../assets/team-page/LeonLiu.jpg";
+import JettChenImg from "../../assets/team-page/JettChen.webp";
+import RyanKimImg from "../../assets/team-page/RyanKim.jpg";
+
 // Type definitions
 export type Person = {
   name: string;
@@ -151,6 +156,147 @@ export type YearType = {
 };
 
 export const YEARS: YearType[] = [
+  {
+    label: "2026-27",
+    directors: [
+      {
+        name: "Thomas Kanz",
+        role: "Director of ScottyLabs",
+        image: ThomasKanzImg,
+        url: "https://www.linkedin.com/in/thomas-kanz/",
+      },
+      {
+        name: "Evan Foster",
+        role: "Director of Events",
+        image: EvanFosterImg,
+        url: "https://www.linkedin.com/in/ebfoster/",
+      },
+      {
+        name: "Yuchen Zhou",
+        role: "Director of Outreach",
+        image: YuchenZhouImg,
+        url: "https://www.linkedin.com/in/yuchen-zhou-58289a247/",
+      },
+      {
+        name: "Anish Pallati",
+        role: "Director of Tech",
+        image: AnishPallatiImg,
+        url: "https://www.linkedin.com/in/anish-pallati/",
+      },
+      {
+        name: "Hana Benko",
+        role: "Director of Labrador",
+        image: HanaBenkoImg,
+        url: "https://www.linkedin.com/in/hana-benko/",
+      },
+      {
+        name: "Jean Chen",
+        role: "Director of Design",
+        image: JeanChenImg,
+        url: "https://www.linkedin.com/in/jeanxcrj/",
+      },
+      {
+        name: "Meera Rajendran",
+        role: "Director of Finance",
+        image: MeeraRajendranImg,
+        url: "https://www.linkedin.com/in/meera-r-945886205/",
+      },
+    ],
+    teams: [
+      [],
+      [],
+      [
+        {
+          name: "Ryan Kim",
+          role: "Head of Tech Product Strategy",
+          image: RyanKimImg,
+          url: "https://www.linkedin.com/in/ryan-kim-59323b26b/",
+        },
+        {
+          name: "Maelle Allanic",
+          role: "Social Chair",
+          image: MaelleAllanicImg,
+          url: "https://www.linkedin.com/in/maelle-allanic/",
+        },
+      ],
+      [
+        {
+          name: "Max Wen",
+          role: "External Projects Tech Lead",
+          image: MaxWenImg,
+          url: "https://www.linkedin.com/in/max-wen/",
+        },
+        {
+          name: "Ryan Li",
+          role: "DevOps & Internal Tooling Tech Lead",
+          image: RyanLiImg,
+          url: "https://www.linkedin.com/in/ryan-li-ab139919b/",
+        },
+        {
+          name: "Anish Pallati",
+          role: "Terrier Tech Lead, O-Quest Tech Lead",
+          image: AnishPallatiImg,
+          url: "https://www.linkedin.com/in/anish-pallati/",
+        },
+        {
+          name: "Jett Chen",
+          role: "CMU Maps Tech Lead",
+          image: JettChenImg,
+          url: "https://www.linkedin.com/in/jettchen/",
+        },
+        {
+          name: "Krish Saxena",
+          role: "ScottyLabs AI (SLAI) Tech Lead",
+          image: KrishSaxenaImg,
+          url: "https://www.linkedin.com/in/krish-saxena-5883a4304/",
+        },
+        {
+          name: "Li Ying",
+          role: "CMU Courses Tech Lead",
+          image: ScottyDogImg,
+          url: "https://www.linkedin.com/in/li-ying-9a5667357/",
+        },
+        {
+          name: "Lee Rodriguez",
+          role: "Open Compute Cluster (OCC) Co-Lead",
+          image: ScottyDogImg,
+        },
+        {
+          name: "Adalyn Gao",
+          role: "Open Compute Cluster (OCC) Tech Co-Lead",
+          image: ScottyDogImg,
+        },
+        {
+          name: "Mark Fan",
+          role: "CMU Eats Tech Lead",
+          image: ScottyDogImg,
+        },
+        {
+          name: "Leon Liu",
+          role: "Lost & Found Tech Lead",
+          image: LeonLiuImg,
+          url: "https://www.linkedin.com/in/leon-liu-6950632a3/",
+        },
+      ],
+      [
+        {
+          name: "Vincent Lo",
+          role: "Head of Go To Market",
+          image: VincentLoImg,
+          url: "https://www.linkedin.com/in/vincentlo12/",
+        },
+      ],
+      [],
+      [
+        {
+          name: "Nandan Nair",
+          role: "Head of Sponsorship",
+          image: NandanNairImg,
+          url: "https://www.linkedin.com/in/nandan-nair-3b92402a6/",
+        },
+      ],
+    ],
+  },
   {
     label: "2025-26",
     directors: [
@@ -215,16 +361,22 @@ export const YEARS: YearType[] = [
       ],
       [
         {
-          name: "Vedanth Ramanathan",
-          role: "Head of Internal Outreach",
-          image: VedanthRamanathanImg,
-          url: "https://www.linkedin.com/in/vedanthramanathan/",
-        },
-        {
           name: "Yuchen Zhou",
           role: "Head of External Outreach",
           image: YuchenZhouImg,
           url: "https://www.linkedin.com/in/yuchen-zhou-58289a247/",
+        },
+        {
+          name: "Maelle Allanic",
+          role: "Social Chair",
+          image: MaelleAllanicImg,
+          url: "https://www.linkedin.com/in/maelle-allanic/",
+        },
+        {
+          name: "Vedanth Ramanathan",
+          role: "Head of Internal Outreach",
+          image: VedanthRamanathanImg,
+          url: "https://www.linkedin.com/in/vedanthramanathan/",
         },
       ],
       [
@@ -242,7 +394,7 @@ export const YEARS: YearType[] = [
         },
         {
           name: "Max Wen",
-          role: "Internal Tooling Tech Lead",
+          role: "External Projects Tech Lead",
           image: MaxWenImg,
           url: "https://www.linkedin.com/in/max-wen/",
         },
@@ -255,7 +407,7 @@ export const YEARS: YearType[] = [
         {
           name: "Li Ying",
           role: "CMU Courses Tech Lead",
-          image: LiYingImg,
+          image: ScottyDogImg,
           url: "https://www.linkedin.com/in/li-ying-9a5667357/",
         },
         {
@@ -267,12 +419,12 @@ export const YEARS: YearType[] = [
         {
           name: "Eric Xu",
           role: "CMU Eats Tech Co-Lead, FLEx (Frontend Landing Experience) Tech Lead",
-          image: EricXuImg,
+          image: ScottyDogImg,
           url: "https://www.linkedin.com/in/eric-xu-032890214/",
         },
         {
           name: "Ellyse Lai",
-          role: "SLAI (ScottyLabs AI) Tech Lead",
+          role: "ScottyLabs AI (SLAI) Tech Lead",
           image: EllyseLaiImg,
           url: "https://www.linkedin.com/in/ellyse-lai/",
         },
@@ -290,7 +442,7 @@ export const YEARS: YearType[] = [
         },
         {
           name: "Qianxue (Cici) Ge",
-          image: ciciImg,
+          image: CiciGeImg,
           role: "CMU Cal Tech Lead",
           url: "https://www.linkedin.com/in/cici-ge/",
         },
