@@ -1,6 +1,45 @@
 import { YEARS, type Person, type YearType } from "../sections/team/team";
 import OGTartanHacksAmyQuispe from "../assets/team-page/OGTartanHacksAmyQuispe.jpg";
 import OGTartanHacksTeam from "../assets/team-page/OGTartanHacksTeam.jpg";
+import TH2026 from "../assets/team-page/TH2026.png";
+import Banner2026 from "../assets/team-page/Banner2026.png";
+import Nova2025 from "../assets/team-page/Nova2025.jpg";
+import Nova2024 from "../assets/team-page/Nova2024.jpg";
+import TH2025 from "../assets/team-page/TH2025.jpg";
+import Banner2025 from "../assets/team-page/Banner2025.jpg";
+import DogHouse2025 from "../assets/team-page/DogHouse2025.png";
+import Pdf2023 from "../assets/team-page/Pdf2023.jpg";
+import Pdf2022 from "../assets/team-page/Pdf2022.jpg";
+import TH2024 from "../assets/team-page/TH2024.jpg";
+import Banner2024 from "../assets/team-page/Banner2024.jpeg";
+import DogHouse2024 from "../assets/team-page/DogHouse2024.jpeg";
+import DogHouse2024Awards from "../assets/team-page/DogHouse2024Awards.jpg";
+import DogHouse2023 from "../assets/team-page/DogHouse2023.jpg";
+import SeniorPicnic2025 from "../assets/team-page/SeniorPicnic2025.jpg";
+import SeniorPicnic2024 from "../assets/team-page/SeniorPicnic2024.png";
+import SeniorPicnic2023 from "../assets/team-page/SeniorPicnic2023.jpg";
+import Fence2026 from "../assets/team-page/Fence2026.jpg";
+import Fence2025 from "../assets/team-page/Fence2025.jpg";
+import Fence2022Fall from "../assets/team-page/Fence2022Fall.png";
+import Fence2022Spring from "../assets/team-page/Fence2022Spring.png";
+import Banner2022 from "../assets/team-page/Banner2022.png";
+import Banner2023 from "../assets/team-page/Banner2023.png";
+import TH2012 from "../assets/team-page/TH2012.jpg";
+import TH2013 from "../assets/team-page/TH2013.jpg";
+import TH2014 from "../assets/team-page/TH2014.png";
+import TH2015 from "../assets/team-page/TH2015.png";
+import TH2016 from "../assets/team-page/TH2016.png";
+import TH2017 from "../assets/team-page/TH2017.png";
+import TH2018 from "../assets/team-page/TH2018.png";
+import TH2019 from "../assets/team-page/TH2019.png";
+import TH2019_2 from "../assets/team-page/TH2019-2.png";
+import TH2020 from "../assets/team-page/TH2020.png";
+import TH2020_2 from "../assets/team-page/TH2020-2.png";
+import TH2021 from "../assets/team-page/TH2021.png";
+import TH2021_2 from "../assets/team-page/TH2021-2.jpg";
+import TH2022 from "../assets/team-page/TH2022.jpg";
+import TH2022_2 from "../assets/team-page/TH2022-2.png";
+import TH2023 from "../assets/team-page/TH2023.png";
 
 /** Wraps children in an anchor only if href exists (so the whole card becomes clickable). */
 const ClickableWrapper: React.FC<{
@@ -449,66 +488,529 @@ export default function Team() {
               color: "#07123b",
             }}
           >
-            LORE
+            ScottyLabs Over the Years
           </div>
           <div style={{ marginBottom: "12px" }}>
-            <span style={{ fontWeight: 600 }}>2024</span>{" "}
+            <span style={{ fontWeight: 600 }}>2025-26</span>{" "}
+            <div style={{ display: "flex", gap: "8px", marginTop: "12px" }}>
+              <img
+                src={Nova2025}
+                style={{
+                  height: "150px",
+                  objectFit: "contain",
+                  display: "block",
+                }}
+              />
+              <img
+                src={Fence2026}
+                style={{
+                  height: "150px",
+                  objectFit: "contain",
+                  display: "block",
+                }}
+              />
+              <img
+                src={TH2026}
+                style={{
+                  height: "150px",
+                  objectFit: "contain",
+                  display: "block",
+                }}
+              />
+              <img
+                src={Banner2026}
+                style={{
+                  height: "150px",
+                  objectFit: "contain",
+                  display: "block",
+                }}
+              />
+            </div>
+            <a
+              href="https://medium.com/tartanhacks/introducing-foundry-carnegie-mellons-first-student-led-startup-accelerator-4c71a0902c10"
+              target="_blank"
+              rel="noopener noreferrer"
+              style={{
+                color: "#819AFF",
+                textDecoration: "none",
+                display: "block",
+              }}
+            >
+              https://medium.com/tartanhacks/introducing-foundry-carnegie-mellons-first-student-led-startup-accelerator-4c71a0902c10
+            </a>
+          </div>
+          <div style={{ marginBottom: "12px" }}>
+            <span style={{ fontWeight: 600 }}>2024-25</span>{" "}
+            <div style={{ display: "flex", gap: "8px", marginTop: "12px" }}>
+              <img
+                src={Nova2024}
+                style={{
+                  height: "150px",
+                  objectFit: "contain",
+                  display: "block",
+                }}
+              />
+              <img
+                src={Fence2025}
+                style={{
+                  height: "150px",
+                  objectFit: "contain",
+                  display: "block",
+                }}
+              />
+              <img
+                src={TH2025}
+                style={{
+                  height: "150px",
+                  objectFit: "contain",
+                  display: "block",
+                }}
+              />
+              <img
+                src={Banner2025}
+                style={{
+                  height: "150px",
+                  objectFit: "contain",
+                  display: "block",
+                }}
+              />
+              <img
+                src={DogHouse2025}
+                style={{
+                  height: "150px",
+                  objectFit: "contain",
+                  display: "block",
+                }}
+              />
+              <img
+                src={SeniorPicnic2025}
+                style={{
+                  height: "150px",
+                  objectFit: "contain",
+                  display: "block",
+                }}
+              />
+            </div>
+          </div>
+          <div style={{ marginBottom: "12px" }}>
+            <span style={{ fontWeight: 600 }}>2023-24</span>{" "}
+            <div style={{ display: "flex", gap: "8px", marginTop: "12px" }}>
+              <img
+                src={Pdf2023}
+                style={{
+                  height: "150px",
+                  objectFit: "contain",
+                  display: "block",
+                }}
+              />
+              <img
+                src={TH2024}
+                style={{
+                  height: "150px",
+                  objectFit: "contain",
+                  display: "block",
+                }}
+              />
+              <img
+                src={Banner2024}
+                style={{
+                  height: "150px",
+                  objectFit: "contain",
+                  display: "block",
+                }}
+              />
+              <img
+                src={DogHouse2024}
+                style={{
+                  height: "150px",
+                  objectFit: "contain",
+                  display: "block",
+                }}
+              />
+              <img
+                src={DogHouse2024Awards}
+                style={{
+                  height: "150px",
+                  objectFit: "contain",
+                  display: "block",
+                }}
+              />
+              <img
+                src={SeniorPicnic2024}
+                style={{
+                  height: "150px",
+                  objectFit: "contain",
+                  display: "block",
+                }}
+              />
+            </div>
             <a
               href="http://www-03-thetartan.andrew.cmu.edu/2024/11/25/never-get-lost-again-with-cmumaps/"
               target="_blank"
               rel="noopener noreferrer"
-              style={{ color: "#819AFF", textDecoration: "none" }}
+              style={{
+                color: "#819AFF",
+                textDecoration: "none",
+                display: "block",
+              }}
             >
               http://www-03-thetartan.andrew.cmu.edu/2024/11/25/never-get-lost-again-with-cmumaps/
             </a>
+            <a
+              href="https://medium.com/tartanhacks/celebrating-scottylabs-12th-birthday-cd4f23692da1"
+              target="_blank"
+              rel="noopener noreferrer"
+              style={{
+                color: "#819AFF",
+                textDecoration: "none",
+                display: "block",
+              }}
+            >
+              https://medium.com/tartanhacks/celebrating-scottylabs-12th-birthday-cd4f23692da1
+            </a>
           </div>
           <div style={{ marginBottom: "12px" }}>
-            <span style={{ fontWeight: 600 }}>2022</span>{" "}
+            <span style={{ fontWeight: 600 }}>2022-23</span>{" "}
+            <div style={{ display: "flex", gap: "8px", marginTop: "12px" }}>
+              <img
+                src={Fence2022Fall}
+                style={{
+                  height: "150px",
+                  objectFit: "contain",
+                  display: "block",
+                }}
+              />
+              <img
+                src={Pdf2022}
+                style={{
+                  height: "150px",
+                  objectFit: "contain",
+                  display: "block",
+                }}
+              />
+              <img
+                src={TH2023}
+                style={{
+                  height: "150px",
+                  objectFit: "contain",
+                  display: "block",
+                }}
+              />
+              <img
+                src={Banner2023}
+                style={{
+                  height: "150px",
+                  objectFit: "contain",
+                  display: "block",
+                }}
+              />
+              <img
+                src={DogHouse2023}
+                style={{
+                  height: "150px",
+                  objectFit: "contain",
+                  display: "block",
+                }}
+              />
+              <img
+                src={SeniorPicnic2023}
+                style={{
+                  height: "150px",
+                  objectFit: "contain",
+                  display: "block",
+                }}
+              />
+            </div>
             <a
               href="https://cargocollective.com/tiffanyhchen/ScottyLabs-Promotional-Materials"
               target="_blank"
               rel="noopener noreferrer"
-              style={{ color: "#819AFF", textDecoration: "none" }}
+              style={{
+                color: "#819AFF",
+                textDecoration: "none",
+                display: "block",
+              }}
             >
               https://cargocollective.com/tiffanyhchen/ScottyLabs-Promotional-Materials
             </a>
           </div>
           <div style={{ marginBottom: "12px" }}>
-            <span style={{ fontWeight: 600 }}>2018</span>{" "}
+            <span style={{ fontWeight: 600 }}>2021-22</span>{" "}
+            <div style={{ display: "flex", gap: "8px", marginTop: "12px" }}>
+              <img
+                src={Fence2022Spring}
+                style={{
+                  height: "150px",
+                  objectFit: "contain",
+                  display: "block",
+                }}
+              />
+              <img
+                src={TH2022}
+                style={{
+                  height: "150px",
+                  objectFit: "contain",
+                  display: "block",
+                }}
+              />
+              <img
+                src={TH2022_2}
+                style={{
+                  height: "150px",
+                  objectFit: "contain",
+                  display: "block",
+                }}
+              />
+              <img
+                src={Banner2022}
+                style={{
+                  height: "150px",
+                  objectFit: "contain",
+                  display: "block",
+                }}
+              />
+            </div>
+            <a
+              href="https://medium.com/tartanhacks/recap-of-tartanhacks-2022-b5b040c7804e"
+              target="_blank"
+              rel="noopener noreferrer"
+              style={{
+                color: "#819AFF",
+                textDecoration: "none",
+                display: "block",
+              }}
+            >
+              https://medium.com/tartanhacks/recap-of-tartanhacks-2022-b5b040c7804e
+            </a>
+            <a
+              href="https://medium.com/tartanhacks/tartanhacks-2022-branding-c3171dfb9106"
+              target="_blank"
+              rel="noopener noreferrer"
+              style={{
+                color: "#819AFF",
+                textDecoration: "none",
+                display: "block",
+              }}
+            >
+              https://medium.com/tartanhacks/tartanhacks-2022-branding-c3171dfb9106
+            </a>
+          </div>
+          <div style={{ marginBottom: "12px" }}>
+            <span style={{ fontWeight: 600 }}>2020-21</span>{" "}
+            <div style={{ display: "flex", gap: "8px", marginTop: "12px" }}>
+              <img
+                src={TH2021}
+                style={{
+                  height: "150px",
+                  objectFit: "contain",
+                  display: "block",
+                }}
+              />
+              <img
+                src={TH2021_2}
+                style={{
+                  height: "150px",
+                  objectFit: "contain",
+                  display: "block",
+                }}
+              />
+            </div>
+            <a
+              href="https://medium.com/tartanhacks/thx-chronicles-the-tartanhacks-software-suite-part-i-85836f980a01"
+              target="_blank"
+              rel="noopener noreferrer"
+              style={{
+                color: "#819AFF",
+                textDecoration: "none",
+                display: "block",
+              }}
+            >
+              https://medium.com/tartanhacks/thx-chronicles-the-tartanhacks-software-suite-part-i-85836f980a01
+            </a>
+          </div>
+          <div style={{ marginBottom: "12px" }}>
+            <span style={{ fontWeight: 600 }}>2019-20</span>{" "}
+            <div style={{ display: "flex", gap: "8px", marginTop: "12px" }}>
+              <img
+                src={TH2020}
+                style={{
+                  height: "50px",
+                  objectFit: "contain",
+                  display: "block",
+                }}
+              />
+              <img
+                src={TH2020_2}
+                style={{
+                  height: "150px",
+                  objectFit: "contain",
+                  display: "block",
+                }}
+              />
+            </div>
+            <a
+              href="https://www.ytorralva.com/tartanhacks"
+              target="_blank"
+              rel="noopener noreferrer"
+              style={{
+                color: "#819AFF",
+                textDecoration: "none",
+                display: "block",
+              }}
+            >
+              https://www.ytorralva.com/tartanhacks
+            </a>
+          </div>
+          <div style={{ marginBottom: "12px" }}>
+            <span style={{ fontWeight: 600 }}>2018-19</span>{" "}
+            <div style={{ display: "flex", gap: "8px", marginTop: "12px" }}>
+              <img
+                src={TH2019}
+                style={{
+                  height: "150px",
+                  objectFit: "contain",
+                  display: "block",
+                }}
+              />
+              <img
+                src={TH2019_2}
+                style={{
+                  height: "150px",
+                  objectFit: "contain",
+                  display: "block",
+                }}
+              />
+            </div>
             <a
               href="https://www.chengeric.com/cmueats/"
               target="_blank"
               rel="noopener noreferrer"
-              style={{ color: "#819AFF", textDecoration: "none" }}
+              style={{
+                color: "#819AFF",
+                textDecoration: "none",
+                display: "block",
+              }}
             >
               https://www.chengeric.com/cmueats/
             </a>
           </div>
           <div style={{ marginBottom: "12px" }}>
+            <span style={{ fontWeight: 600 }}>2017-18</span>{" "}
+            <div style={{ display: "flex", gap: "8px", marginTop: "12px" }}>
+              <img
+                src={TH2018}
+                style={{
+                  height: "50px",
+                  objectFit: "contain",
+                  display: "block",
+                }}
+              />
+            </div>
+          </div>
+          <div style={{ marginBottom: "12px" }}>
+            <span style={{ fontWeight: 600 }}>2016-17</span>{" "}
+            <div style={{ display: "flex", gap: "8px", marginTop: "12px" }}>
+              <img
+                src={TH2017}
+                style={{
+                  height: "150px",
+                  objectFit: "contain",
+                  display: "block",
+                }}
+              />
+            </div>
+          </div>
+          <div style={{ marginBottom: "12px" }}>
+            <span style={{ fontWeight: 600 }}>2015-16</span>{" "}
+            <div style={{ display: "flex", gap: "8px", marginTop: "12px" }}>
+              <img
+                src={TH2016}
+                style={{
+                  height: "50px",
+                  objectFit: "contain",
+                  display: "block",
+                }}
+              />
+            </div>
+          </div>
+          <div style={{ marginBottom: "12px" }}>
+            <span style={{ fontWeight: 600 }}>2014-15</span>{" "}
+            <div style={{ display: "flex", gap: "8px", marginTop: "12px" }}>
+              <img
+                src={TH2015}
+                style={{
+                  height: "150px",
+                  objectFit: "contain",
+                  display: "block",
+                }}
+              />
+            </div>
+            <a
+              href="https://jez.io/tartanhacks/"
+              target="_blank"
+              rel="noopener noreferrer"
+              style={{
+                color: "#819AFF",
+                textDecoration: "none",
+                display: "block",
+              }}
+            >
+              https://jez.io/tartanhacks/
+            </a>
+          </div>
+          <div style={{ marginBottom: "12px" }}>
             <span style={{ fontWeight: 600 }}>2013-14</span>{" "}
+            <div style={{ display: "flex", gap: "8px", marginTop: "12px" }}>
+              <img
+                src={TH2014}
+                style={{
+                  height: "50px",
+                  objectFit: "contain",
+                  display: "block",
+                }}
+              />
+            </div>
             <a
               href="https://www.cs.cmu.edu/link/scottylabs-making-it-easier-makers"
               target="_blank"
               rel="noopener noreferrer"
-              style={{ color: "#819AFF", textDecoration: "none" }}
+              style={{
+                color: "#819AFF",
+                textDecoration: "none",
+                display: "block",
+              }}
             >
               https://www.cs.cmu.edu/link/scottylabs-making-it-easier-makers
             </a>
           </div>
           <div style={{ marginBottom: "12px" }}>
             <span style={{ fontWeight: 600 }}>2012-13</span>{" "}
+            <div style={{ display: "flex", gap: "8px", marginTop: "12px" }}>
+              <img
+                src={TH2013}
+                style={{
+                  height: "150px",
+                  objectFit: "contain",
+                  display: "block",
+                }}
+              />
+            </div>
             <a
               href="https://www.facebook.com/ScottyLabs/posts/340694309339069/"
               target="_blank"
               rel="noopener noreferrer"
-              style={{ color: "#819AFF", textDecoration: "none" }}
+              style={{
+                color: "#819AFF",
+                textDecoration: "none",
+                display: "block",
+              }}
             >
               https://www.facebook.com/ScottyLabs/posts/340694309339069/
             </a>
           </div>
           <div style={{ marginBottom: "12px" }}>
             <span style={{ fontWeight: 600 }}>2011-12</span>{" "}
-            <div style={{ display: "flex", gap: "16px", marginTop: "12px" }}>
+            <div style={{ display: "flex", gap: "8px", marginTop: "12px" }}>
               <div style={{ textAlign: "center" }}>
                 <img
                   src={OGTartanHacksAmyQuispe}
@@ -549,6 +1051,14 @@ export default function Team() {
                   Jeff Cooper
                 </div>
               </div>
+              <img
+                src={TH2012}
+                style={{
+                  height: "150px",
+                  objectFit: "contain",
+                  display: "block",
+                }}
+              />
             </div>
           </div>
         </div>
