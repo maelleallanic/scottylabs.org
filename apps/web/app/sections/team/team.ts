@@ -99,6 +99,7 @@ import EricChengImg from "../../assets/team-page/EricCheng.jpg";
 import ArleenLiuImg from "../../assets/team-page/ArleenLiu.jpg";
 import MayankJainImg from "../../assets/team-page/MayankJain.jpg";
 import MichaelBeckerImg from "../../assets/team-page/MichaelBecker.png";
+import AllenGuImg from "../../assets/team-page/AllenGu.png";
 import JoshDurhamImg from "../../assets/team-page/JoshDurham.jpg";
 import SrinivasLadeImg from "../../assets/team-page/SrinivasLade.jpg";
 import RobinHanImg from "../../assets/team-page/RobinHan.jpg";
@@ -295,6 +296,13 @@ export const YEARS: YearType[] = [
           name: "Mark Fan",
           role: "CMU Eats Tech Lead",
           image: ScottyDogImg,
+          url: "http://arom1a.com/",
+        },
+        {
+          name: "Maelle Allanic",
+          role: "Scotty.lol Tech Lead",
+          image: MaelleAllanicImg,
+          url: "https://www.linkedin.com/in/maelle-allanic/",
         },
         {
           name: "Katherine Geng",
@@ -370,7 +378,7 @@ export const YEARS: YearType[] = [
       {
         name: "Allen Gu",
         role: "Director of Finance",
-        image: ScottyDogImg,
+        image: AllenGuImg,
         url: "https://www.linkedin.com/in/allen-gu/",
       },
     ],
@@ -419,13 +427,13 @@ export const YEARS: YearType[] = [
         },
         {
           name: "Anish Pallati",
-          role: "Head of DevOps, Terrier Tech Lead, O-Quest Tech Lead",
+          role: "Head of DevOps, Terrier (Hackathon Platform) Tech Lead, O-Quest Tech Lead",
           image: AnishPallatiImg,
           url: "https://www.linkedin.com/in/anish-pallati/",
         },
         {
           name: "Max Wen",
-          role: "External Projects Tech Lead",
+          role: "Community-Based Projects Tech Lead",
           image: MaxWenImg,
           url: "https://www.linkedin.com/in/max-wen/",
         },
@@ -438,7 +446,7 @@ export const YEARS: YearType[] = [
         {
           name: "Li Ying",
           role: "CMU Courses Tech Lead",
-          image: ScottyDogImg,
+          image: LiYingImg,
           url: "https://www.linkedin.com/in/li-ying-9a5667357/",
         },
         {
@@ -646,28 +654,34 @@ export const YEARS: YearType[] = [
           url: "https://www.linkedin.com/in/yuxiang-huang-7b646028b/",
         },
         {
-          name: "Jack Hurewitz",
-          role: "CMU Eats Tech Lead",
-          image: JackHurewitzImg,
-          url: "https://github.com/JackHurew",
-        },
-        {
           name: "Xavier Lien",
           role: "CMU Courses Tech Lead",
           image: XavierLienImg,
           url: "https://www.linkedin.com/in/xavilien/",
         },
         {
-          name: "Anna Gu",
-          role: "Lost & Found Tech Lead",
-          image: AnnaGuImg,
-          url: "https://www.linkedin.com/in/anna-gu-b7591a299/",
-        },
-        {
           name: "Gabriel Hall",
           role: "TartanHacks Tech Lead",
           image: GabrielHallImg,
           url: "https://www.linkedin.com/in/gabriel-hall",
+        },
+        {
+          name: "Anish Pallati",
+          role: "O-Quest Tech Lead",
+          image: AnishPallatiImg,
+          url: "https://www.linkedin.com/in/anish-pallati/",
+        },
+        {
+          name: "Jack Hurewitz",
+          role: "CMU Eats Tech Lead",
+          image: JackHurewitzImg,
+          url: "https://github.com/JackHurew",
+        },
+        {
+          name: "Anna Gu",
+          role: "Lost & Found Tech Lead",
+          image: AnnaGuImg,
+          url: "https://www.linkedin.com/in/anna-gu-b7591a299/",
         },
       ],
       [
@@ -714,7 +728,7 @@ export const YEARS: YearType[] = [
         {
           name: "Allen Gu",
           role: "Head of Purchasing & Planning",
-          image: ScottyDogImg,
+          image: AllenGuImg,
           url: "https://www.linkedin.com/in/allen-gu/",
         },
         {
