@@ -144,6 +144,9 @@ import RyanKimImg from "../../assets/team-page/RyanKim.jpg";
 import LiYingImg from "../../assets/team-page/LiYing.jpg";
 import EricXuImg from "../../assets/team-page/EricXu.jpg";
 import SaraChokshiImg from "../../assets/team-page/SaraChokshi.jpg";
+import KritDassImg from "../../assets/team-page/KritDass.jpg";
+import JalenLuImg from "../../assets/team-page/JalenLu.jpg";
+import KatherineGengImg from "../../assets/team-page/KatherineGeng.jpg";
 
 // Type definitions
 export type Person = {
@@ -232,7 +235,7 @@ export const YEARS: YearType[] = [
       [
         {
           name: "Max Wen",
-          role: "External Projects Tech Lead",
+          role: "Community-Based Projects Tech Lead",
           image: MaxWenImg,
           url: "https://www.linkedin.com/in/max-wen/",
         },
@@ -243,8 +246,14 @@ export const YEARS: YearType[] = [
           url: "https://www.linkedin.com/in/ryan-li-ab139919b/",
         },
         {
+          name: "Krit Dass",
+          role: "Terrier (Hackathon Platform) Tech Lead",
+          image: KritDassImg,
+          url: "https://www.linkedin.com/in/kritdass/",
+        },
+        {
           name: "Anish Pallati",
-          role: "Terrier Tech Lead, O-Quest Tech Lead",
+          role: "O-Quest Tech Lead",
           image: AnishPallatiImg,
           url: "https://www.linkedin.com/in/anish-pallati/",
         },
@@ -267,6 +276,12 @@ export const YEARS: YearType[] = [
           url: "https://www.linkedin.com/in/li-ying-9a5667357/",
         },
         {
+          name: "Jalen Lu",
+          role: "CMU Cal Tech Lead",
+          image: JalenLuImg,
+          url: "https://www.linkedin.com/in/jalenluorion/",
+        },
+        {
           name: "Lee Rodriguez",
           role: "Open Compute Cluster (OCC) Co-Lead",
           image: ScottyDogImg,
@@ -280,6 +295,12 @@ export const YEARS: YearType[] = [
           name: "Mark Fan",
           role: "CMU Eats Tech Lead",
           image: ScottyDogImg,
+        },
+        {
+          name: "Katherine Geng",
+          role: "Corgi (Component Library) Tech Lead",
+          image: KatherineGengImg,
+          url: "https://www.linkedin.com/in/katherine-geng-30a22538b/",
         },
         {
           name: "Leon Liu",
