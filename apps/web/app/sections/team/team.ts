@@ -141,6 +141,9 @@ import KrishSaxenaImg from "../../assets/team-page/KrishSaxena.jpg";
 import LeonLiuImg from "../../assets/team-page/LeonLiu.jpg";
 import JettChenImg from "../../assets/team-page/JettChen.webp";
 import RyanKimImg from "../../assets/team-page/RyanKim.jpg";
+import LiYingImg from "../../assets/team-page/LiYing.jpg";
+import EricXuImg from "../../assets/team-page/EricXu.jpg";
+import SaraChokshiImg from "../../assets/team-page/SaraChokshi.jpg";
 
 // Type definitions
 export type Person = {
@@ -204,7 +207,14 @@ export const YEARS: YearType[] = [
     ],
     teams: [
       [],
-      [],
+      [
+        {
+          name: "Sara Chokshi",
+          role: "Head of Logistics",
+          image: SaraChokshiImg,
+          url: "https://www.linkedin.com/in/sara-chokshi-9a0523191/",
+        },
+      ],
       [
         {
           name: "Ryan Kim",
@@ -253,7 +263,7 @@ export const YEARS: YearType[] = [
         {
           name: "Li Ying",
           role: "CMU Courses Tech Lead",
-          image: ScottyDogImg,
+          image: LiYingImg,
           url: "https://www.linkedin.com/in/li-ying-9a5667357/",
         },
         {
@@ -419,7 +429,7 @@ export const YEARS: YearType[] = [
         {
           name: "Eric Xu",
           role: "CMU Eats Tech Co-Lead, FLEx (Frontend Landing Experience) Tech Lead",
-          image: ScottyDogImg,
+          image: EricXuImg,
           url: "https://www.linkedin.com/in/eric-xu-032890214/",
         },
         {
