@@ -226,12 +226,6 @@ export const YEARS: YearType[] = [
           image: RyanKimImg,
           url: "https://www.linkedin.com/in/ryan-kim-59323b26b/",
         },
-        {
-          name: "Maelle Allanic",
-          role: "Social Chair",
-          image: MaelleAllanicImg,
-          url: "https://www.linkedin.com/in/maelle-allanic/",
-        },
       ],
       [
         {
@@ -283,16 +277,6 @@ export const YEARS: YearType[] = [
           url: "https://www.linkedin.com/in/jalenluorion/",
         },
         {
-          name: "Lee Rodriguez",
-          role: "Open Compute Cluster (OCC) Co-Lead",
-          image: ScottyDogImg,
-        },
-        {
-          name: "Adalyn Gao",
-          role: "Open Compute Cluster (OCC) Tech Co-Lead",
-          image: ScottyDogImg,
-        },
-        {
           name: "Mark Fan",
           role: "CMU Eats Tech Lead",
           image: ScottyDogImg,
@@ -306,7 +290,7 @@ export const YEARS: YearType[] = [
         },
         {
           name: "Katherine Geng",
-          role: "Corgi (Component Library) Tech Lead",
+          role: "UI Architecture Tech Lead",
           image: KatherineGengImg,
           url: "https://www.linkedin.com/in/katherine-geng-30a22538b/",
         },
