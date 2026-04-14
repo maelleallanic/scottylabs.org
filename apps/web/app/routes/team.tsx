@@ -1,6 +1,4 @@
 import { YEARS, type Person, type YearType } from "../sections/team/team";
-import OGTartanHacksAmyQuispe from "../assets/team-page/OGTartanHacksAmyQuispe.jpg";
-import OGTartanHacksTeam from "../assets/team-page/OGTartanHacksTeam.jpg";
 import TH2026 from "../assets/team-page/TH2026.png";
 import Banner2026 from "../assets/team-page/Banner2026.png";
 import Nova2025 from "../assets/team-page/Nova2025.jpg";
@@ -24,21 +22,76 @@ import Fence2022Fall from "../assets/team-page/Fence2022Fall.png";
 import Fence2022Spring from "../assets/team-page/Fence2022Spring.png";
 import Banner2022 from "../assets/team-page/Banner2022.png";
 import Banner2023 from "../assets/team-page/Banner2023.png";
-import TH2012 from "../assets/team-page/TH2012.jpg";
-import TH2013 from "../assets/team-page/TH2013.jpg";
-import TH2014 from "../assets/team-page/TH2014.png";
+import OGTartanHacksAmyQuispe from "../assets/team-page/OGTartanHacksAmyQuispe.jpg";
+import OGTartanHacksTeam from "../assets/team-page/OGTartanHacksTeam.jpg";
+import TH2012Poster_1 from "../assets/team-page/TH2012Poster-1.png";
+import TH2012Poster_2 from "../assets/team-page/TH2012Poster-2.png";
+import TH2012Poster_3 from "../assets/team-page/TH2012Poster-3.png";
+import TH2012Poster_4 from "../assets/team-page/TH2012Poster-4.png";
+import CrashCourse2013 from "../assets/team-page/CrashCourse2013.png";
+import TH2013_2 from "../assets/team-page/TH2013-2.png";
+import TH2014_2 from "../assets/team-page/TH2014-2.png";
+import TH2014_3 from "../assets/team-page/TH2014-3.png";
+import TH2014_4 from "../assets/team-page/TH2014-4.jpg";
 import TH2015 from "../assets/team-page/TH2015.png";
-import TH2016 from "../assets/team-page/TH2016.png";
-import TH2017 from "../assets/team-page/TH2017.png";
+import TH2015_2 from "../assets/team-page/TH2015-2.jpg";
+import TH2015_3 from "../assets/team-page/TH2015-3.jpg";
+import TH2015_4 from "../assets/team-page/TH2015-4.jpg";
+import TH2015_5 from "../assets/team-page/TH2015-5.jpg";
+import TH2016_2 from "../assets/team-page/TH2016-2.png";
+import TH2016_3 from "../assets/team-page/TH2016-3.png";
+import TH2016_4 from "../assets/team-page/TH2016-4.jpg";
+import TH2016_5 from "../assets/team-page/TH2016-5.jpg";
+import TH2016_6 from "../assets/team-page/TH2016-6.jpg";
+import TH2016_7 from "../assets/team-page/TH2016-7.jpg";
+import TH2016_8 from "../assets/team-page/TH2016-8.jpg";
+import TH2016_9 from "../assets/team-page/TH2016-9.jpg";
+import TH2016_10 from "../assets/team-page/TH2016-10.jpg";
+import TH2017_2 from "../assets/team-page/TH2017-2.png";
+import TH2017_3 from "../assets/team-page/TH2017-3.jpg";
+import TH2017_4 from "../assets/team-page/TH2017-4.jpg";
+import TH2017_5 from "../assets/team-page/TH2017-5.jpg";
 import TH2018 from "../assets/team-page/TH2018.png";
+import TH2018_2 from "../assets/team-page/TH2018-2.png";
+import TH2018_3 from "../assets/team-page/TH2018-3.png";
 import TH2019 from "../assets/team-page/TH2019.png";
 import TH2019_2 from "../assets/team-page/TH2019-2.png";
+import TH2019_3 from "../assets/team-page/TH2019-3.jpg";
+import TH2019_4 from "../assets/team-page/TH2019-4.jpg";
+import TH2019_5 from "../assets/team-page/TH2019-5.jpg";
+import TH2019_6 from "../assets/team-page/TH2019-6.jpg";
+import TH2019_7 from "../assets/team-page/TH2019-7.jpg";
+import TH2019_8 from "../assets/team-page/TH2019-8.jpg";
+import TH2019_9 from "../assets/team-page/TH2019-9.jpg";
 import TH2020 from "../assets/team-page/TH2020.png";
 import TH2020_2 from "../assets/team-page/TH2020-2.png";
+import TH2020_3 from "../assets/team-page/TH2020-3.png";
+import TH2020_4 from "../assets/team-page/TH2020-4.png";
+import TH2020_5 from "../assets/team-page/TH2020-5.jpg";
+import TH2020_6 from "../assets/team-page/TH2020-6.jpg";
+import TH2020_7 from "../assets/team-page/TH2020-7.jpg";
+import TH2020_8 from "../assets/team-page/TH2020-8.jpg";
+import TH2020_9 from "../assets/team-page/TH2020-9.png";
+import TH2020_10 from "../assets/team-page/TH2020-10.jpg";
+import TH2020_11 from "../assets/team-page/TH2020-11.jpg";
+import TH2020_12 from "../assets/team-page/TH2020-12.jpg";
+import TH2020_13 from "../assets/team-page/TH2020-13.jpg";
+import TH2020_14 from "../assets/team-page/TH2020-14.jpg";
+import TH2020_15 from "../assets/team-page/TH2020-15.jpg";
+import TH2020_16 from "../assets/team-page/TH2020-16.jpg";
+import TH2020_17 from "../assets/team-page/TH2020-17.jpg";
 import TH2021 from "../assets/team-page/TH2021.png";
 import TH2021_2 from "../assets/team-page/TH2021-2.jpg";
+import TH2021_3 from "../assets/team-page/TH2021-3.png";
+import TH2021_4 from "../assets/team-page/TH2021-4.png";
+import TH2021_5 from "../assets/team-page/TH2021-5.png";
+import TH2021_6 from "../assets/team-page/TH2021-6.png";
+import TH2021_7 from "../assets/team-page/TH2021-7.png";
 import TH2022 from "../assets/team-page/TH2022.jpg";
 import TH2022_2 from "../assets/team-page/TH2022-2.png";
+import TH2022_3 from "../assets/team-page/TH2022-3.png";
+import TH2022_4 from "../assets/team-page/TH2022-4.png";
+import TH2022_5 from "../assets/team-page/TH2022-5.png";
 import TH2023 from "../assets/team-page/TH2023.png";
 
 /** Wraps children in an anchor only if href exists (so the whole card becomes clickable). */
@@ -695,7 +748,15 @@ export default function Team() {
                 width: "100%",
               }}
             >
-              {[Fence2022Spring, TH2022, TH2022_2, Banner2022].map((src, i) => (
+              {[
+                Fence2022Spring,
+                TH2022,
+                TH2022_2,
+                TH2022_3,
+                TH2022_4,
+                TH2022_5,
+                Banner2022,
+              ].map((src, i) => (
                 <img
                   key={i}
                   src={src}
@@ -750,21 +811,23 @@ export default function Team() {
                 width: "100%",
               }}
             >
-              {[TH2021, TH2021_2].map((src, i) => (
-                <img
-                  key={i}
-                  src={src}
-                  style={{
-                    maxHeight: "150px",
-                    width: "auto",
-                    maxWidth: "100%",
-                    minWidth: 0,
-                    flexShrink: 1,
-                    objectFit: "contain",
-                    display: "block",
-                  }}
-                />
-              ))}
+              {[TH2021_3, TH2021_4, TH2021_5, TH2021_6, TH2021_7].map(
+                (src, i) => (
+                  <img
+                    key={i}
+                    src={src}
+                    style={{
+                      maxHeight: "150px",
+                      width: "auto",
+                      maxWidth: "100%",
+                      minWidth: 0,
+                      flexShrink: 1,
+                      objectFit: "contain",
+                      display: "block",
+                    }}
+                  />
+                ),
+              )}
             </div>
             <a
               href="https://medium.com/tartanhacks/thx-chronicles-the-tartanhacks-software-suite-part-i-85836f980a01"
@@ -789,30 +852,39 @@ export default function Team() {
                 gap: "8px",
                 marginTop: "12px",
                 alignItems: "center",
-                flexWrap: "nowrap",
+                flexWrap: "wrap",
                 width: "100%",
               }}
             >
-              <img
-                src={TH2020}
-                style={{
-                  maxHeight: "50px",
-                  width: "auto",
-                  maxWidth: "100%",
-                  minWidth: 0,
-                  flexShrink: 1,
-                }}
-              />
-              <img
-                src={TH2020_2}
-                style={{
-                  maxHeight: "150px",
-                  width: "auto",
-                  maxWidth: "100%",
-                  minWidth: 0,
-                  flexShrink: 1,
-                }}
-              />
+              {[
+                TH2020_3,
+                TH2020_4,
+                TH2020_17,
+                TH2020_2,
+                TH2020_5,
+                TH2020_6,
+                TH2020_7,
+                TH2020_8,
+                TH2020_10,
+                TH2020_11,
+                TH2020_12,
+                TH2020_13,
+                TH2020_14,
+                TH2020_15,
+                TH2020_16,
+              ].map((src, i) => (
+                <img
+                  key={i}
+                  src={src}
+                  style={{
+                    maxHeight: "150px",
+                    width: "auto",
+                    maxWidth: "100%",
+                    minWidth: 0,
+                    flexShrink: 1,
+                  }}
+                />
+              ))}
             </div>
             <a
               href="https://www.ytorralva.com/tartanhacks"
@@ -837,11 +909,21 @@ export default function Team() {
                 gap: "8px",
                 marginTop: "12px",
                 alignItems: "center",
-                flexWrap: "nowrap",
+                flexWrap: "wrap",
                 width: "100%",
               }}
             >
-              {[TH2019, TH2019_2].map((src, i) => (
+              {[
+                TH2019,
+                TH2019_2,
+                TH2019_3,
+                TH2019_4,
+                TH2019_5,
+                TH2019_6,
+                TH2019_7,
+                TH2019_8,
+                TH2019_9,
+              ].map((src, i) => (
                 <img
                   key={i}
                   src={src}
@@ -878,20 +960,22 @@ export default function Team() {
                 gap: "8px",
                 marginTop: "12px",
                 alignItems: "center",
-                flexWrap: "nowrap",
+                flexWrap: "wrap",
                 width: "100%",
               }}
             >
-              <img
-                src={TH2018}
-                style={{
-                  maxHeight: "50px",
-                  width: "auto",
-                  maxWidth: "100%",
-                  minWidth: 0,
-                  flexShrink: 1,
-                }}
-              />
+              {[TH2018_2, TH2018_3].map((src, i) => (
+                <img
+                  key={i}
+                  src={src}
+                  style={{
+                    height: "150px",
+                    width: "auto",
+                    objectFit: "contain",
+                    display: "block",
+                  }}
+                />
+              ))}
             </div>
           </div>
 
@@ -904,20 +988,22 @@ export default function Team() {
                 gap: "8px",
                 marginTop: "12px",
                 alignItems: "center",
-                flexWrap: "nowrap",
+                flexWrap: "wrap",
                 width: "100%",
               }}
             >
-              <img
-                src={TH2017}
-                style={{
-                  maxHeight: "150px",
-                  width: "auto",
-                  maxWidth: "100%",
-                  minWidth: 0,
-                  flexShrink: 1,
-                }}
-              />
+              {[TH2017_2, TH2017_3, TH2017_4, TH2017_5].map((src, i) => (
+                <img
+                  key={i}
+                  src={src}
+                  style={{
+                    height: "150px",
+                    width: "auto",
+                    objectFit: "contain",
+                    display: "block",
+                  }}
+                />
+              ))}
             </div>
           </div>
 
@@ -930,20 +1016,32 @@ export default function Team() {
                 gap: "8px",
                 marginTop: "12px",
                 alignItems: "center",
-                flexWrap: "nowrap",
+                flexWrap: "wrap",
                 width: "100%",
               }}
             >
-              <img
-                src={TH2016}
-                style={{
-                  maxHeight: "50px",
-                  width: "auto",
-                  maxWidth: "100%",
-                  minWidth: 0,
-                  flexShrink: 1,
-                }}
-              />
+              {[
+                TH2016_2,
+                TH2016_3,
+                TH2016_10,
+                TH2016_4,
+                TH2016_5,
+                TH2016_6,
+                TH2016_7,
+                TH2016_8,
+                TH2016_9,
+              ].map((src, i) => (
+                <img
+                  key={i}
+                  src={src}
+                  style={{
+                    height: "150px",
+                    width: "auto",
+                    objectFit: "contain",
+                    display: "block",
+                  }}
+                />
+              ))}
             </div>
           </div>
 
@@ -956,20 +1054,24 @@ export default function Team() {
                 gap: "8px",
                 marginTop: "12px",
                 alignItems: "center",
-                flexWrap: "nowrap",
+                flexWrap: "wrap",
                 width: "100%",
               }}
             >
-              <img
-                src={TH2015}
-                style={{
-                  maxHeight: "150px",
-                  width: "auto",
-                  maxWidth: "100%",
-                  minWidth: 0,
-                  flexShrink: 1,
-                }}
-              />
+              {[TH2015, TH2015_2, TH2015_3, TH2015_4, TH2015_5].map(
+                (src, i) => (
+                  <img
+                    key={i}
+                    src={src}
+                    style={{
+                      height: "150px",
+                      width: "auto",
+                      objectFit: "contain",
+                      display: "block",
+                    }}
+                  />
+                ),
+              )}
             </div>
             <a
               href="https://jez.io/tartanhacks/"
@@ -994,20 +1096,22 @@ export default function Team() {
                 gap: "8px",
                 marginTop: "12px",
                 alignItems: "center",
-                flexWrap: "nowrap",
+                flexWrap: "wrap",
                 width: "100%",
               }}
             >
-              <img
-                src={TH2014}
-                style={{
-                  maxHeight: "50px",
-                  width: "auto",
-                  maxWidth: "100%",
-                  minWidth: 0,
-                  flexShrink: 1,
-                }}
-              />
+              {[TH2014_2, TH2014_3, TH2014_4].map((src, i) => (
+                <img
+                  key={i}
+                  src={src}
+                  style={{
+                    height: "150px",
+                    width: "auto",
+                    objectFit: "contain",
+                    display: "block",
+                  }}
+                />
+              ))}
             </div>
             <a
               href="https://www.cs.cmu.edu/link/scottylabs-making-it-easier-makers"
@@ -1036,16 +1140,21 @@ export default function Team() {
                 width: "100%",
               }}
             >
-              <img
-                src={TH2013}
-                style={{
-                  maxHeight: "150px",
-                  width: "auto",
-                  maxWidth: "100%",
-                  minWidth: 0,
-                  flexShrink: 1,
-                }}
-              />
+              {[CrashCourse2013, TH2013_2].map((src, i) => (
+                <img
+                  key={i}
+                  src={src}
+                  style={{
+                    maxHeight: "150px",
+                    width: "auto",
+                    maxWidth: "100%",
+                    minWidth: 0,
+                    flexShrink: 1,
+                    objectFit: "contain",
+                    display: "block",
+                  }}
+                />
+              ))}
             </div>
             <a
               href="https://www.facebook.com/ScottyLabs/posts/340694309339069/"
@@ -1062,88 +1171,95 @@ export default function Team() {
           </div>
 
           {/* 2011-12 */}
-          <div
-            style={{
-              display: "flex",
-              gap: "8px",
-              marginTop: "12px",
-              alignItems: "center",
-              flexWrap: "nowrap",
-              width: "100%",
-            }}
-          >
-            <div style={{ textAlign: "center", minWidth: 0, flexShrink: 1 }}>
-              <img
-                src={OGTartanHacksAmyQuispe}
-                style={{
-                  maxHeight: "400px",
-                  width: "auto",
-                  maxWidth: "100%",
-                  minWidth: 0,
-                  flexShrink: 1,
-                  objectFit: "contain",
-                  display: "block",
-                  margin: "0 auto",
-                }}
-              />
-              <div
-                style={{
-                  marginTop: "8px",
-                  fontSize: "12px",
-                  color: "#6b7280",
-                }}
-              >
-                Amy Quispe at First TartanHacks
-              </div>
+          <div style={{ marginBottom: "12px" }}>
+            <span style={{ fontWeight: 600 }}>2011-12</span>
+            <div
+              style={{
+                display: "flex",
+                gap: "8px",
+                marginTop: "12px",
+                alignItems: "center",
+                flexWrap: "wrap",
+                width: "100%",
+              }}
+            >
+              {[
+                TH2012Poster_1,
+                TH2012Poster_2,
+                TH2012Poster_3,
+                TH2012Poster_4,
+              ].map((src, i) => (
+                <img
+                  key={i}
+                  src={src}
+                  style={{
+                    height: "150px",
+                    width: "auto",
+                    objectFit: "contain",
+                    display: "block",
+                  }}
+                />
+              ))}
             </div>
-
-            <div style={{ textAlign: "center", minWidth: 0, flexShrink: 1 }}>
-              <img
-                src={OGTartanHacksTeam}
-                style={{
-                  maxHeight: "400px",
-                  width: "auto",
-                  maxWidth: "100%",
-                  minWidth: 0,
-                  flexShrink: 1,
-                  objectFit: "contain",
-                  display: "block",
-                  margin: "0 auto",
-                }}
-              />
-              <div
-                style={{
-                  marginTop: "8px",
-                  fontSize: "12px",
-                  color: "#6b7280",
-                }}
-              >
-                Vinay Vemuri, Quintin Carlon, Julia Teitelbaum, Ryhan Hassan &
-                Jeff Cooper
+            <div
+              style={{
+                display: "flex",
+                gap: "8px",
+                marginTop: "12px",
+                alignItems: "center",
+                width: "100%",
+              }}
+            >
+              <div style={{ textAlign: "center", minWidth: 0, flexShrink: 1 }}>
+                <img
+                  src={OGTartanHacksAmyQuispe}
+                  style={{
+                    maxHeight: "400px",
+                    width: "auto",
+                    maxWidth: "100%",
+                    minWidth: 0,
+                    flexShrink: 1,
+                    objectFit: "contain",
+                    display: "block",
+                    margin: "0 auto",
+                  }}
+                />
+                <div
+                  style={{
+                    marginTop: "8px",
+                    fontSize: "12px",
+                    color: "#6b7280",
+                  }}
+                >
+                  Amy Quispe at First TartanHacks
+                </div>
               </div>
-            </div>
 
-            <div style={{ textAlign: "center", minWidth: 0, flexShrink: 1 }}>
-              <img
-                src={TH2012}
-                style={{
-                  maxHeight: "150px",
-                  width: "auto",
-                  maxWidth: "100%",
-                  minWidth: 0,
-                  flexShrink: 1,
-                  objectFit: "contain",
-                  display: "block",
-                  margin: "0 auto",
-                }}
-              />
-              <div
-                style={{
-                  marginTop: "8px",
-                  fontSize: "12px",
-                  color: "#6b7280",
-                }}
-              ></div>
+              <div style={{ textAlign: "center", minWidth: 0, flexShrink: 1 }}>
+                <img
+                  src={OGTartanHacksTeam}
+                  style={{
+                    maxHeight: "400px",
+                    width: "auto",
+                    maxWidth: "100%",
+                    minWidth: 0,
+                    flexShrink: 1,
+                    objectFit: "contain",
+                    display: "block",
+                    margin: "0 auto",
+                  }}
+                />
+                <div
+                  style={{
+                    marginTop: "8px",
+                    fontSize: "12px",
+                    color: "#6b7280",
+                  }}
+                >
+                  Vinay Vemuri, Quintin Carlon, Julia Teitelbaum, Ryhan Hassan &
+                  Jeff Cooper
+                </div>
+              </div>
             </div>
           </div>
         </div>
