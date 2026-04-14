@@ -59,12 +59,8 @@ function Hero() {
           <div className={css["events"]}>
             {[
               {
-                text: "Register for TartanHacks!",
-                url: "https://www.tartanhacks.com/",
-              },
-              {
-                text: "Check out CMUGPT",
-                url: "https://cmugpt.com/",
+                text: "Check out CollegeCart from the Labrador committee!",
+                url: "https://collegecart.org/",
               },
             ].map(({ text, url }) => (
               <Link to={url} target="_blank" key={url}>
